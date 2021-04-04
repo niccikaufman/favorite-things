@@ -1,10 +1,10 @@
-const onFormSubmit = function() { 
-  let faveThings = [];
-  $("form#fave-things").submit(function(event){
-    event.preventDefault();
-    faveThings.push($("#fave-color"))
-  })
-  console.log(faveThings);
-};
-
-
+$(document).ready(function(){
+  var myArray = [];
+  $('#submit').on('click', function() {
+    event.preventDefault()
+    $('.req').each(function() {
+      myArray.push($(this).val()); 
+      console.log(myArray);
+    });
+  });     
+});

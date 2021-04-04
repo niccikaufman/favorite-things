@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Favorite Things</title>
   </head>
@@ -12,13 +13,13 @@
     </div>
     <div class="container">
       <form id="fave-things">
-        <label for="fave-things" id="fave-color"><input type="text"> Favorite Color</label>
-        <label for="fave-things" id="fave-animal"><input type="text"> Favorite Animal</label>
-        <label for="fave-things" id="fave-season"><input type="text"> Favorite Season</label>
-        <label for="fave-things" id="fave-band"><input type="text"> Favorite Band</label>
-        <label for="fave-things" id="fave-movie"><input type="text"> Favorite Movie</label>
+        <label for="fave-things" ><input type="text" class="req" id="fave-color"> Favorite Color</label>
+        <label for="fave-things" ><input type="text"  class="req" id="fave-animal"> Favorite Animal</label>
+        <label for="fave-things"><input type="text"  class="req" id="fave-season"> Favorite Season</label>
+        <label for="fave-things"><input type="text"  class="req" id="fave-band"> Favorite Band</label>
+        <label for="fave-things"><input type="text"  class="req" id="fave-movie"> Favorite Movie</label>
         <br>
-        <button type="submit">Submit</button>
+        <button id="submit">Submit</button>
       </form>
     </div>
   </body>
