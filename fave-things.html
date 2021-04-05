@@ -13,14 +13,23 @@
     </div>
     <div class="container">
       <form id="fave-things">
-        <label for="fave-things" ><input type="text" class="req" id="fave-color"> Favorite Color</label>
-        <label for="fave-things" ><input type="text"  class="req" id="fave-animal"> Favorite Animal</label>
-        <label for="fave-things"><input type="text"  class="req" id="fave-season"> Favorite Season</label>
-        <label for="fave-things"><input type="text"  class="req" id="fave-band"> Favorite Band</label>
-        <label for="fave-things"><input type="text"  class="req" id="fave-movie"> Favorite Movie</label>
+        <label id="fave-color" ><input type="text" class="req"> Favorite Color</label>
+        <label id="fave-animal" ><input type="text"  class="req"> Favorite Animal</label>
+        <label id="fave-season"><input type="text"  class="req"> Favorite Season</label>
+        <label id="fave-band"><input type="text"  class="req"> Favorite Band</label>
+        <label id="fave-movie"><input type="text"  class="req"> Favorite Movie</label>
         <br>
         <button id="submit">Submit</button>
       </form>
+      <div>
+        <ul class="output">
+          <li>Favorite color: <span id="fave-color-output"></span></li>
+          <li>Favorite animal: <span id="fave-animal-output"></span></li>
+          <li>Favorite season: <span id="fave-season-output"></span></li>
+          <li>Favorite band: <span id="fave-band-output"></span></li>
+          <li>Favorite movie: <span id="fave-movie-output"></span></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
