@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#reset").click(function() {
     $('#fave-things').trigger("reset");
+    $('.output').hide(); 
   });
   let myArray = [];
   $('#submit').on('click', function() {
