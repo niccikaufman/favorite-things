@@ -1,0 +1,17 @@
+.output {
+  display: none;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 10%;
+}
+
+label {
+  flex: 1 2 auto;
+}
+
+p {
+  text-align: center;
+}
